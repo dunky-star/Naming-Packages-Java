@@ -46,5 +46,8 @@ public class Main {
         ScopeCheck scopeInstance = new ScopeCheck();
         System.out.println("\n");
         scopeInstance.timesTwo();
+        System.out.println("***********************************");
+        ScopeCheck.InnerClass innerClass = scopeInstance.new InnerClass();
+        innerClass.timesTwo();
     }
 }
