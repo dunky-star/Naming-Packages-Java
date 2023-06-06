@@ -44,5 +44,7 @@ public class Main {
 
         System.out.println("Scope in Java");
         ScopeCheck scopeCheck = new ScopeCheck();
+        System.out.println("\n");
+        scopeCheck.timesTwo();
     }
 }
