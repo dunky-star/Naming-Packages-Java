@@ -43,6 +43,6 @@ public class Main {
         System.out.println("\n");
 
         System.out.println("Scope in Java");
-        ScopeCheck scCheck = new ScopeCheck();
+        ScopeCheck scopeCheck = new ScopeCheck();
     }
 }
