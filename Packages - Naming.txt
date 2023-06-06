@@ -1,0 +1,11 @@
+The things you will name in Java:
+*****************************
+1. Packages
+2. Classes
+3. Interfaces
+4. Methods
+5. Constant
+6. Variables
+7. Type parameters
+
+Java Scope: Scope is a visibility concept - (granting or restricting access to our object.  
