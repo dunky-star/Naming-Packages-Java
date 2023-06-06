@@ -43,8 +43,8 @@ public class Main {
         System.out.println("\n");
 
         System.out.println("Scope in Java");
-        ScopeCheck scopeCheck = new ScopeCheck();
+        ScopeCheck scopeInstance = new ScopeCheck();
         System.out.println("\n");
-        scopeCheck.timesTwo();
+        scopeInstance.timesTwo();
     }
 }
