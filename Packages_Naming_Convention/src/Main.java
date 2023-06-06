@@ -1,3 +1,4 @@
+import com.dunky.scopes.ScopeCheck;
 import com.dunky.series.Series;
 
 /**
@@ -40,5 +41,8 @@ public class Main {
             System.out.println(Series.fibonacci(i));
         }
         System.out.println("\n");
+
+        System.out.println("Scope in Java");
+        ScopeCheck scCheck = new ScopeCheck();
     }
 }
