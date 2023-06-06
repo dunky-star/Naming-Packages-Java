@@ -6,14 +6,14 @@ package com.dunky.scopes;
 public class ScopeCheck {
 
     public int publicVar = 0;
-    private int privateVar = 1;
+    private int varOne = 1;
 
     public ScopeCheck() {
-        System.out.println("ScopeCheck created, publicVar = " + publicVar + ": privateVar = " + privateVar);
+        System.out.println("ScopeCheck created, publicVar = " + publicVar + ": privateVar = " + varOne);
     }
 
-    public int getPrivateVar() {
-        return privateVar;
+    public int getVarOne() {
+        return varOne;
     }
 
     public void timesTwo() {
@@ -33,7 +33,7 @@ public class ScopeCheck {
         public void timesTwo() {
             ScopeCheck.this.timesTwo();
             for (int i=0; i<10; i++) {
-                System.out.println(i + " times two is " + i * ScopeCheck.this.privateVar);
+                System.out.println(i + " times two is " + i * ScopeCheck.this.varOne);
             }
         }
 
