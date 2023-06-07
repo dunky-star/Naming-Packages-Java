@@ -1,5 +1,8 @@
+import com.dunky.challenge.X;
 import com.dunky.scopes.ScopeCheck;
 import com.dunky.series.Series;
+
+import java.util.Scanner;
 
 /**
  *      Create a suitably named package containing a class called Series
@@ -49,5 +52,10 @@ public class Main {
         System.out.println("***********************************");
         ScopeCheck.InnerClass innerClass = scopeInstance.new InnerClass();
         innerClass.timesTwo();
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Please enter a number: ");
+        X x = new X(sc.nextInt());
+        x.x();
     }
 }
