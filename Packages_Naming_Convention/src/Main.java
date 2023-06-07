@@ -54,7 +54,7 @@ public class Main {
         innerClass.timesTwo();
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Please enter a number: ");
+        System.out.println("\nPlease enter a number: ");
         X x = new X(sc.nextInt());
         x.x();
     }
