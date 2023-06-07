@@ -21,7 +21,7 @@ public class X {
 
     public void x(){
         for (int x = 1; x < 13; x++ ){
-            System.out.println(x + "times" + this.x + " equals " + x * this.x);
+            System.out.println(x + " times " + this.x + " equals " + x * this.x);
         }
     }
 }
