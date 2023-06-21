@@ -8,4 +8,6 @@ The things you will name in Java:
 6. Variables
 7. Type parameters
 
-Java Scope: Scope is a visibility concept - (granting or restricting access to our object.  
+=> Java Scope: Scope is a visibility concept - (granting or restricting access to other object).  
+
+=> Static final variables must be initialized by the time static initialization block terminates.
